@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AES Encryption and Decryption</title>
+</head>
+<body>
+    AES Encryption and Decryption
+    <br>
+    <br>
+    <br>
+    <br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    <script src="index.js"></script>
+    <textarea id="inputText" placeholder="Введіть текст для дешифрування"></textarea>
+    <button onclick="encrypt()">Зашифровать</button>
+    <br>
+    <textarea id="encryptedText" placeholder="Зашифрований текст" readonly></textarea>
+    <button onclick="decrypt()">Дешифровать</button>
+    <br>
+    <textarea id="decryptedText" placeholder="Дешифрований текст" readonly></textarea>
+</body>
+</html>
